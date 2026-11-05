@@ -11,10 +11,13 @@
 
 We unlock the gains of AI inside your company: custom AI apps, fine-tuned models, forward deployed engineers and AI security. This is where we publish the code we open up.
 
-### Open source
+### Agent tools
+
+- [**ezo-watcher**](https://github.com/ezolabs/ezo-watcher): the open-source AI SRE for your project. Monitoring your coding agent installs, proves and fixes. [Try the live demo](https://ezo-watcher-demo.pages.dev).
+
+### Security
 
 - [**reqsk-uaf-check**](https://github.com/ezolabs/reqsk-uaf-check): tells you whether a Linux host carries the fix for the TCP request-socket use-after-free, [CVE-2026-99270](https://www.cve.org/CVERecord?id=CVE-2026-99270). One read-only script.
-- **ezo-watcher**: monitoring your coding agent sets up and proves from one prompt. Private preview, opening soon. [Try the live demo](https://ezo-watcher-demo.pages.dev).
 
 ### Get in touch
 
