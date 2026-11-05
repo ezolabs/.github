@@ -13,7 +13,7 @@ We unlock the gains of AI inside your company: custom AI apps, fine-tuned models
 
 | Project | What it does | Links |
 | --- | --- | --- |
-| [**ezo‑watcher**](https://github.com/ezolabs/ezo-watcher)<br><sub>agent tools</sub> | The open-source AI SRE for your project. Monitoring your coding agent installs, proves and fixes. | [![live demo](https://img.shields.io/badge/live%20demo-3b6ef6?style=flat)](https://ezo-watcher-demo.pages.dev) [![MCP server](https://img.shields.io/badge/MCP%20server-30363d?style=flat)](https://github.com/ezolabs/ezo-watcher#mcp) |
+| [**ezo‑watcher**](https://github.com/ezolabs/ezo-watcher)<br><sub>agent tools</sub> | The open-source AI SRE for your project. Monitoring your coding agent installs, proves and fixes. | [![live demo](https://img.shields.io/badge/live%20demo-3b6ef6?style=flat)](https://ezo-watcher-demo.pages.dev) [![MIT](https://img.shields.io/badge/MIT-30363d?style=flat)](https://github.com/ezolabs/ezo-watcher/blob/main/LICENSE) [![MCP server](https://img.shields.io/badge/MCP%20server-30363d?style=flat)](https://github.com/ezolabs/ezo-watcher#mcp) |
 | [**reqsk‑uaf‑check**](https://github.com/ezolabs/reqsk-uaf-check)<br><sub>security</sub> | Tells you whether a Linux host carries the fix for the TCP request-socket use-after-free. One read-only script. | [![MIT](https://img.shields.io/badge/MIT-30363d?style=flat)](https://github.com/ezolabs/reqsk-uaf-check/blob/main/LICENSE) [![CVE-2026-99270](https://img.shields.io/badge/CVE--2026--99270-e5534b?style=flat)](https://www.cve.org/CVERecord?id=CVE-2026-99270) |
 
 ### Get in touch
