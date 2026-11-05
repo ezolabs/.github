@@ -1,23 +1,20 @@
 <a href="https://ezolabs.io"><img src="https://raw.githubusercontent.com/ezolabs/.github/main/profile/assets/banner.png" alt="EZO Labs. AI that works for you: custom AI, built for your company." width="100%"></a>
 
 <p align="center">
-  <a href="https://ezolabs.io">ezolabs.io</a> //
-  <a href="https://ezolabs.io/research">research</a> //
-  <a href="https://ezolabs.io/security">security</a> //
-  <a href="https://ezolabs.io/enterprise">enterprise</a> //
-  <a href="https://x.com/ezolabsinc">x</a> //
-  <a href="https://www.linkedin.com/company/ezolabs">linkedin</a>
+  <a href="https://ezolabs.io"><img src="https://img.shields.io/badge/ezolabs.io-3b6ef6?style=flat" alt="ezolabs.io" height="28"></a>&nbsp;
+  <a href="https://ezolabs.io/research"><img src="https://img.shields.io/badge/research-30363d?style=flat" alt="research" height="28"></a>&nbsp;
+  <a href="https://ezolabs.io/security"><img src="https://img.shields.io/badge/security-30363d?style=flat" alt="security" height="28"></a>&nbsp;
+  <a href="https://ezolabs.io/enterprise"><img src="https://img.shields.io/badge/enterprise-30363d?style=flat" alt="enterprise" height="28"></a>&nbsp;
+  <a href="https://x.com/ezolabsinc"><img src="https://img.shields.io/badge/x-30363d?style=flat" alt="x" height="28"></a>&nbsp;
+  <a href="https://www.linkedin.com/company/ezolabs"><img src="https://img.shields.io/badge/linkedin-30363d?style=flat" alt="linkedin" height="28"></a>
 </p>
 
 We unlock the gains of AI inside your company: custom AI apps, fine-tuned models, forward deployed engineers and AI security. This is where we publish the code we open up.
 
-### Agent tools
-
-- [**ezo-watcher**](https://github.com/ezolabs/ezo-watcher): the open-source AI SRE for your project. Monitoring your coding agent installs, proves and fixes. [Try the live demo](https://ezo-watcher-demo.pages.dev).
-
-### Security
-
-- [**reqsk-uaf-check**](https://github.com/ezolabs/reqsk-uaf-check): tells you whether a Linux host carries the fix for the TCP request-socket use-after-free, [CVE-2026-99270](https://www.cve.org/CVERecord?id=CVE-2026-99270). One read-only script.
+| Project | What it does | Links |
+| --- | --- | --- |
+| [**ezo‑watcher**](https://github.com/ezolabs/ezo-watcher)<br><sub>agent tools</sub> | The open-source AI SRE for your project. Monitoring your coding agent installs, proves and fixes. | [![live demo](https://img.shields.io/badge/live%20demo-3b6ef6?style=flat)](https://ezo-watcher-demo.pages.dev) [![MCP server](https://img.shields.io/badge/MCP%20server-30363d?style=flat)](https://github.com/ezolabs/ezo-watcher#mcp) |
+| [**reqsk‑uaf‑check**](https://github.com/ezolabs/reqsk-uaf-check)<br><sub>security</sub> | Tells you whether a Linux host carries the fix for the TCP request-socket use-after-free. One read-only script. | [![MIT](https://img.shields.io/badge/MIT-30363d?style=flat)](https://github.com/ezolabs/reqsk-uaf-check/blob/main/LICENSE) [![CVE-2026-99270](https://img.shields.io/badge/CVE--2026--99270-e5534b?style=flat)](https://www.cve.org/CVERecord?id=CVE-2026-99270) |
 
 ### Get in touch
 
