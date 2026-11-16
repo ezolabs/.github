@@ -23,7 +23,7 @@ We unlock the gains of AI inside your company: custom AI apps, fine-tuned models
 EZO Labs Security reports vulnerabilities upstream and follows each one through coordinated disclosure. Maintainers publish the advisory and credit [superbot-helper](https://github.com/superbot-helper), the account our reports are filed from.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/9%20credited%20advisories-3b6ef6?style=flat" alt="9 credited advisories" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/10%20credited%20advisories-3b6ef6?style=flat" alt="10 credited advisories" height="28">&nbsp;
   <img src="https://img.shields.io/badge/highest%20severity%20high%207.8-e5534b?style=flat" alt="highest severity high 7.8" height="28">&nbsp;
   <a href="https://ezolabs.net/security"><img src="https://img.shields.io/badge/security%20page-30363d?style=flat" alt="security page" height="28"></a>
 </p>
@@ -31,6 +31,7 @@ EZO Labs Security reports vulnerabilities upstream and follows each one through 
 | Severity | Advisory | Project | What it was | Fixed in |
 | --- | --- | --- | --- | --- |
 | ![high 7.8](https://img.shields.io/badge/high%207.8-e5534b?style=flat) | [GHSA-6hqx-gqrx-c5r2](https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-6hqx-gqrx-c5r2) | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)<br><sub><code>mcp-server-git</code> · 92k stars</sub> | Arbitrary command execution through the repository's own Git config, triggered by read-only tools | 2026.11.11 |
+| ![high 7.5](https://img.shields.io/badge/high%207.5-e5534b?style=flat) | [GHSA-q76c-gcvw-89x9](https://github.com/i18next/i18next/security/advisories/GHSA-q76c-gcvw-89x9) | [i18next/i18next](https://github.com/i18next/i18next)<br><sub><code>i18next</code> · 35M downloads/wk</sub> | One request whose language code is the name of an inherited object property ends the Node process | 27.1.3 |
 | ![high 7.5](https://img.shields.io/badge/high%207.5-e5534b?style=flat) | [GHSA-xxvx-vcj6-rjq5](https://github.com/i18next/i18next-http-middleware/security/advisories/GHSA-xxvx-vcj6-rjq5) | [i18next/i18next-http-middleware](https://github.com/i18next/i18next-http-middleware)<br><sub><code>i18next-http-middleware</code> · 382k downloads/wk</sub> | Made-up namespaces posted to missingKeyHandler permanently slow down every later request | 3.10.2 |
 | ![high 7.5](https://img.shields.io/badge/high%207.5-e5534b?style=flat) | [GHSA-4597-5x94-x3xg](https://github.com/J-F-Liu/lopdf/security/advisories/GHSA-4597-5x94-x3xg) | [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf)<br><sub><code>lopdf</code> · 2.3k stars</sub> | Stack overflow via a chain of stream /Length references | no fixed release yet |
 
