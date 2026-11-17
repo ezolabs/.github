@@ -23,17 +23,17 @@ We unlock the gains of AI inside your company: custom AI apps, fine-tuned models
 EZO Labs Security reports vulnerabilities upstream and follows each one through coordinated disclosure. Maintainers publish the advisory and credit [superbot-helper](https://github.com/superbot-helper), the account our reports are filed from.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/10%20credited%20advisories-3b6ef6?style=flat" alt="10 credited advisories" height="28">&nbsp;
-  <img src="https://img.shields.io/badge/highest%20severity%20high%207.8-e5534b?style=flat" alt="highest severity high 7.8" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/17%20credited%20advisories-3b6ef6?style=flat" alt="17 credited advisories" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/highest%20severity%20critical%209.1-e5534b?style=flat" alt="highest severity critical 9.1" height="28">&nbsp;
   <a href="https://ezolabs.net/security"><img src="https://img.shields.io/badge/security%20page-30363d?style=flat" alt="security page" height="28"></a>
 </p>
 
 | Severity | Advisory | Project | What it was | Fixed in |
 | --- | --- | --- | --- | --- |
-| ![high 7.8](https://img.shields.io/badge/high%207.8-e5534b?style=flat) | [GHSA-6hqx-gqrx-c5r2](https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-6hqx-gqrx-c5r2) | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)<br><sub><code>mcp-server-git</code> · 92k stars</sub> | Arbitrary command execution through the repository's own Git config, triggered by read-only tools | 2026.11.11 |
-| ![high 7.5](https://img.shields.io/badge/high%207.5-e5534b?style=flat) | [GHSA-q76c-gcvw-89x9](https://github.com/i18next/i18next/security/advisories/GHSA-q76c-gcvw-89x9) | [i18next/i18next](https://github.com/i18next/i18next)<br><sub><code>i18next</code> · 35M downloads/wk</sub> | One request whose language code is the name of an inherited object property ends the Node process | 27.1.3 |
-| ![high 7.5](https://img.shields.io/badge/high%207.5-e5534b?style=flat) | [GHSA-xxvx-vcj6-rjq5](https://github.com/i18next/i18next-http-middleware/security/advisories/GHSA-xxvx-vcj6-rjq5) | [i18next/i18next-http-middleware](https://github.com/i18next/i18next-http-middleware)<br><sub><code>i18next-http-middleware</code> · 382k downloads/wk</sub> | Made-up namespaces posted to missingKeyHandler permanently slow down every later request | 3.10.2 |
-| ![high 7.5](https://img.shields.io/badge/high%207.5-e5534b?style=flat) | [GHSA-4597-5x94-x3xg](https://github.com/J-F-Liu/lopdf/security/advisories/GHSA-4597-5x94-x3xg) | [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf)<br><sub><code>lopdf</code> · 2.3k stars</sub> | Stack overflow via a chain of stream /Length references | no fixed release yet |
+| ![critical 9.1](https://img.shields.io/badge/critical%209.1-e5534b?style=flat) | [GHSA-2v5m-57pq-r9j3](https://github.com/MervinPraison/PraisonAI/security/advisories/GHSA-2v5m-57pq-r9j3) | [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI)<br><sub><code>aiui</code></sub> | Authentication middleware guards only the /api/ prefix, so the same handlers serve configuration, sessions and agent runs without a credential | 0.3.155 |
+| ![high 7.8](https://img.shields.io/badge/high%207.8-e5534b?style=flat) | [GHSA-6hqx-gqrx-c5r2](https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-6hqx-gqrx-c5r2) | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)<br><sub><code>mcp-server-git</code></sub> | Arbitrary command execution through the repository's own Git config, triggered by read-only tools | 2026.11.11 |
+| ![high 7.5](https://img.shields.io/badge/high%207.5-e5534b?style=flat) | [GHSA-62qw-cq6m-mrh6](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-62qw-cq6m-mrh6) | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br><sub><code>siyuan-note/siyuan</code></sub> | The earlier SiYuan fix leaves the transactions push unfiltered, so a block attribute imported from a document runs a handler in another client | v3.8.11 |
+| ![high 7.5](https://img.shields.io/badge/high%207.5-e5534b?style=flat) | [GHSA-5wwx-wf9g-8c69](https://github.com/nostrdevkit/nostr/security/advisories/GHSA-5wwx-wf9g-8c69) | [nostrdevkit/nostr](https://github.com/nostrdevkit/nostr)<br><sub><code>nostr-connect</code></sub> | The client-initiated NIP-46 flow accepts an unvalidated ack response, so any relay participant can be pinned as the remote signer | 0.45.3 |
 
 The full table is on the [reporting account's profile](https://github.com/superbot-helper).
 
