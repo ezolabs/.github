@@ -23,17 +23,17 @@ We unlock the gains of AI inside your company: custom AI apps, fine-tuned models
 EZO Labs Security reports vulnerabilities upstream and follows each one through coordinated disclosure. Maintainers publish the advisory and credit [superbot-helper](https://github.com/superbot-helper), the account our reports are filed from.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/30%20credited%20advisories-3b6ef6?style=flat" alt="30 credited advisories" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/31%20credited%20advisories-3b6ef6?style=flat" alt="31 credited advisories" height="28">&nbsp;
   <img src="https://img.shields.io/badge/highest%20severity%20critical%209.8-e5534b?style=flat" alt="highest severity critical 9.8" height="28">&nbsp;
   <a href="https://ezolabs.net/security"><img src="https://img.shields.io/badge/security%20page-30363d?style=flat" alt="security page" height="28"></a>
 </p>
 
 | Severity | Advisory | Project | What it was | Fixed in |
 | --- | --- | --- | --- | --- |
+| ![critical 9.8](https://img.shields.io/badge/critical%209.8-e5534b?style=flat) | [GHSA-9426-q567-pc36](https://github.com/MervinPraison/PraisonAI/security/advisories/GHSA-9426-q567-pc36) | [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI)<br><sub><code>praisonaiagents</code>, <code>praisonai</code>, <code>praisonai-code</code>, <code>praisonai-bot</code>, <code>praisonai-mcp</code>, <code>praisonai-sandbox</code>, <code>praisonai-browser</code>, <code>praisonai-deploy</code></sub> | Our report of the npm serve host-guard bypass was folded into the vendor's consolidated 4.8.0 advisory | 1.8.0 / 4.8.0 / 0.2.0 |
 | ![critical 9.8](https://img.shields.io/badge/critical%209.8-e5534b?style=flat) | [GHSA-h924-jfhp-9vjr](https://github.com/christianhelle/refitter/security/advisories/GHSA-h924-jfhp-9vjr) | [christianhelle/refitter](https://github.com/christianhelle/refitter)<br><sub><code>Refitter</code></sub> | Schema property names, discriminator fields, defaults and enum values are emitted into C# literals unescaped | no fixed release yet |
 | ![critical 9.1](https://img.shields.io/badge/critical%209.1-e5534b?style=flat) | [GHSA-2v5m-57pq-r9j3](https://github.com/MervinPraison/PraisonAI/security/advisories/GHSA-2v5m-57pq-r9j3) | [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI)<br><sub><code>aiui</code></sub> | Authentication middleware guards only the /api/ prefix, so the same handlers serve configuration, sessions and agent runs without a credential | 0.3.155 |
 | ![critical 9.0](https://img.shields.io/badge/critical%209.0-e5534b?style=flat) | [GHSA-vjx3-h5hv-9fm4](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-vjx3-h5hv-9fm4) | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br><sub><code>github.com/siyuan-note/siyuan/kernel</code></sub> | An imported asset filename is returned by asset search and inserted unescaped into the protyle asset picker's rows, so opening the picker runs the filename's handler | v3.8.11 |
-| ![high 8.8](https://img.shields.io/badge/high%208.8-e5534b?style=flat) | [GHSA-hg84-q73q-5p33](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-hg84-q73q-5p33) | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br><sub><code>github.com/siyuan-note/siyuan/kernel</code></sub> | A custom attribute name carried by an imported .sy.zip is interpolated unescaped into the block attribute panel, so opening the panel runs the name's handler | v3.8.11 |
 
 <!-- cve records:begin -->
 **CVE records.** CVE ids assigned to findings we reported:
