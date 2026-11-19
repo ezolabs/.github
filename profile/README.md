@@ -35,6 +35,14 @@ EZO Labs Security reports vulnerabilities upstream and follows each one through 
 | ![critical 9.0](https://img.shields.io/badge/critical%209.0-e5534b?style=flat) | [GHSA-vjx3-h5hv-9fm4](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-vjx3-h5hv-9fm4) | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br><sub><code>github.com/siyuan-note/siyuan/kernel</code></sub> | An imported asset filename is returned by asset search and inserted unescaped into the protyle asset picker's rows, so opening the picker runs the filename's handler | v3.8.11 |
 | ![high 8.8](https://img.shields.io/badge/high%208.8-e5534b?style=flat) | [GHSA-hg84-q73q-5p33](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-hg84-q73q-5p33) | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br><sub><code>github.com/siyuan-note/siyuan/kernel</code></sub> | A custom attribute name carried by an imported .sy.zip is interpolated unescaped into the block attribute panel, so opening the panel runs the name's handler | v3.8.11 |
 
+<!-- vendor notices:begin -->
+**Vendor notices.** Public notices from vendors that name EZO Labs Security for a report. They are not advisories and are not counted above.
+
+| Notice | Project | What we reported |
+| --- | --- | --- |
+| [CVE-2026-114938](https://www.cve.org/CVERecord?id=CVE-2026-114938)<br><sub>[apolloconfig/apollo#5719](https://github.com/apolloconfig/apollo/discussions/5719)</sub> | [apolloconfig/apollo](https://github.com/apolloconfig/apollo)<br><sub><code>apollo-configservice</code>, <code>apollo-adminservice</code>, <code>apollo-portal</code></sub> | we reported to Apollo Config that its official 3.0.0 images ship the affected Java runtime, which decodes Basic headers before authentication; the CVE itself is OpenJDK's, and Apollo's public notice names EZO Labs Security as the reporter |
+<!-- vendor notices:end -->
+
 The full table is on the [reporting account's profile](https://github.com/superbot-helper).
 
 ### Get in touch
