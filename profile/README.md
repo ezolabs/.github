@@ -35,6 +35,12 @@ EZO Labs Security reports vulnerabilities upstream and follows each one through 
 | ![critical 9.0](https://img.shields.io/badge/critical%209.0-e5534b?style=flat) | [GHSA-vjx3-h5hv-9fm4](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-vjx3-h5hv-9fm4) | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br><sub><code>github.com/siyuan-note/siyuan/kernel</code></sub> | An imported asset filename is returned by asset search and inserted unescaped into the protyle asset picker's rows, so opening the picker runs the filename's handler | v3.8.11 |
 | ![high 8.8](https://img.shields.io/badge/high%208.8-e5534b?style=flat) | [GHSA-hg84-q73q-5p33](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-hg84-q73q-5p33) | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br><sub><code>github.com/siyuan-note/siyuan/kernel</code></sub> | A custom attribute name carried by an imported .sy.zip is interpolated unescaped into the block attribute panel, so opening the panel runs the name's handler | v3.8.11 |
 
+<!-- cve records:begin -->
+**CVE records.** CVE ids assigned to findings we reported:
+
+[CVE-2026-132133](https://www.cve.org/CVERecord?id=CVE-2026-132133), [CVE-2026-99270](https://www.cve.org/CVERecord?id=CVE-2026-99270)
+<!-- cve records:end -->
+
 <!-- vendor notices:begin -->
 **Vendor notices.** Public notices from vendors that name EZO Labs Security for a report. They are not advisories and are not counted above.
 
