@@ -38,7 +38,11 @@ EZO Labs Security reports vulnerabilities upstream and follows each one through 
 <!-- cve records:begin -->
 **CVE records.** CVE ids assigned to findings we reported:
 
-[CVE-2026-132133](https://www.cve.org/CVERecord?id=CVE-2026-132133), [CVE-2026-99270](https://www.cve.org/CVERecord?id=CVE-2026-99270)
+[CVE-2026-132133](https://www.cve.org/CVERecord?id=CVE-2026-132133)
+
+**CVE ids we requested.** For a fix others reported and wrote:
+
+[CVE-2026-99270](https://www.cve.org/CVERecord?id=CVE-2026-99270)
 <!-- cve records:end -->
 
 <!-- vendor notices:begin -->
