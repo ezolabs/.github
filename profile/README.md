@@ -23,7 +23,7 @@ We unlock the gains of AI inside your company: custom AI apps, fine-tuned models
 EZO Labs Security reports vulnerabilities upstream and follows each one through coordinated disclosure. Maintainers publish the advisory and credit [superbot-helper](https://github.com/superbot-helper), the account our reports are filed from.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/19%20credited%20advisories-3b6ef6?style=flat" alt="19 credited advisories" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/24%20credited%20advisories-3b6ef6?style=flat" alt="24 credited advisories" height="28">&nbsp;
   <img src="https://img.shields.io/badge/highest%20severity%20critical%209.8-e5534b?style=flat" alt="highest severity critical 9.8" height="28">&nbsp;
   <a href="https://ezolabs.net/security"><img src="https://img.shields.io/badge/security%20page-30363d?style=flat" alt="security page" height="28"></a>
 </p>
@@ -32,8 +32,8 @@ EZO Labs Security reports vulnerabilities upstream and follows each one through 
 | --- | --- | --- | --- | --- |
 | ![critical 9.8](https://img.shields.io/badge/critical%209.8-e5534b?style=flat) | [GHSA-h924-jfhp-9vjr](https://github.com/christianhelle/refitter/security/advisories/GHSA-h924-jfhp-9vjr) | [christianhelle/refitter](https://github.com/christianhelle/refitter)<br><sub><code>Refitter</code></sub> | Schema property names, discriminator fields, defaults and enum values are emitted into C# literals unescaped | no fixed release yet |
 | ![critical 9.1](https://img.shields.io/badge/critical%209.1-e5534b?style=flat) | [GHSA-2v5m-57pq-r9j3](https://github.com/MervinPraison/PraisonAI/security/advisories/GHSA-2v5m-57pq-r9j3) | [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI)<br><sub><code>aiui</code></sub> | Authentication middleware guards only the /api/ prefix, so the same handlers serve configuration, sessions and agent runs without a credential | 0.3.155 |
-| ![high 8.2](https://img.shields.io/badge/high%208.2-e5534b?style=flat) | [GHSA-364q-4p2h-gcf3](https://github.com/graphql-hive/gateway/security/advisories/GHSA-364q-4p2h-gcf3) | [graphql-hive/gateway](https://github.com/graphql-hive/gateway)<br><sub><code>@graphql-tools/executor-graphql-ws</code></sub> | A shared executor reuses the first subscriber's connection params on every later WebSocket connection, so anonymous subscribers are authenticated as that user | &gt;=3.2.2 |
-| ![high 7.8](https://img.shields.io/badge/high%207.8-e5534b?style=flat) | [GHSA-6hqx-gqrx-c5r2](https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-6hqx-gqrx-c5r2) | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)<br><sub><code>mcp-server-git</code></sub> | Arbitrary command execution through the repository's own Git config, triggered by read-only tools | 2026.11.11 |
+| ![critical 9.0](https://img.shields.io/badge/critical%209.0-e5534b?style=flat) | [GHSA-vjx3-h5hv-9fm4](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-vjx3-h5hv-9fm4) | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br><sub><code>github.com/siyuan-note/siyuan/kernel</code></sub> | An imported asset filename is returned by asset search and inserted unescaped into the protyle asset picker's rows, so opening the picker runs the filename's handler | v3.8.11 |
+| ![high 8.8](https://img.shields.io/badge/high%208.8-e5534b?style=flat) | [GHSA-hg84-q73q-5p33](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-hg84-q73q-5p33) | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br><sub><code>github.com/siyuan-note/siyuan/kernel</code></sub> | A custom attribute name carried by an imported .sy.zip is interpolated unescaped into the block attribute panel, so opening the panel runs the name's handler | v3.8.11 |
 
 The full table is on the [reporting account's profile](https://github.com/superbot-helper).
 
