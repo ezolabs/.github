@@ -38,7 +38,7 @@ EZO Labs Security reports vulnerabilities upstream and follows each one through 
 <!-- cve records:begin -->
 **CVE records.** CVE ids assigned to findings we reported:
 
-[CVE-2026-132133](https://www.cve.org/CVERecord?id=CVE-2026-132133), [CVE-2026-132267](https://www.cve.org/CVERecord?id=CVE-2026-132267)
+[CVE-2026-132133](https://www.cve.org/CVERecord?id=CVE-2026-132133), [CVE-2026-132267](https://github.com/i18next/i18next-http-middleware/security/advisories/GHSA-mjcw-gfh6-3cxm) (reserved, record not yet published)
 
 **CVE ids we requested.** For a fix others reported and wrote:
 
