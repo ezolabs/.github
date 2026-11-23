@@ -23,7 +23,7 @@ We unlock the gains of AI inside your company: custom AI apps, fine-tuned models
 EZO Labs Security reports vulnerabilities upstream and follows each one through coordinated disclosure. Maintainers publish the advisory and credit [superbot-helper](https://github.com/superbot-helper), the account our reports are filed from, as reporter or, where marked, as analyst.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/43%20credited%20advisories-3b6ef6?style=flat" alt="43 credited advisories" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/44%20credited%20advisories-3b6ef6?style=flat" alt="44 credited advisories" height="28">&nbsp;
   <img src="https://img.shields.io/badge/highest%20severity%20critical%209.8-e5534b?style=flat" alt="highest severity critical 9.8" height="28">&nbsp;
   <a href="https://ezolabs.net/security"><img src="https://img.shields.io/badge/security%20page-30363d?style=flat" alt="security page" height="28"></a>
 </p>
@@ -31,9 +31,9 @@ EZO Labs Security reports vulnerabilities upstream and follows each one through 
 | Severity | Advisory | Project | What it was | Fixed in |
 | --- | --- | --- | --- | --- |
 | ![critical 9.8](https://img.shields.io/badge/critical%209.8-e5534b?style=flat) | [GHSA-h924-jfhp-9vjr](https://github.com/christianhelle/refitter/security/advisories/GHSA-h924-jfhp-9vjr) | [christianhelle/refitter](https://github.com/christianhelle/refitter)<br><sub><code>Refitter</code>, <code>Refitter.Core</code>, <code>Refitter.MSBuild</code>, <code>Refitter.SourceGenerator</code></sub> | Schema property names, discriminator fields, defaults and enum values are emitted into C# literals unescaped | 2.4.1 |
+| ![critical 9.2](https://img.shields.io/badge/critical%209.2-e5534b?style=flat) | [GHSA-cjh8-m3cm-xw57](https://github.com/Privasys/platform-gateway/security/advisories/GHSA-cjh8-m3cm-xw57) | [Privasys/platform-gateway](https://github.com/Privasys/platform-gateway)<br><sub><code>platform-gateway</code></sub> | A client with no credential can exhaust the gateway's memory with oversized sealed WebSocket messages | 0.6.1 |
 | ![critical 9.2](https://img.shields.io/badge/critical%209.2-e5534b?style=flat) | [GHSA-7xrx-59p5-wpf4](https://github.com/Privasys/enclave-os-virtual/security/advisories/GHSA-7xrx-59p5-wpf4) | [Privasys/enclave-os-virtual](https://github.com/Privasys/enclave-os-virtual)<br><sub><code>enclave-os-virtual</code>, <code>enclave-os-virtual-gpu</code></sub> | Client connections grow the RA-TLS attestation handler's connection table, and every request walks it | 0.2.132 / 0.6.69 |
 | ![critical 9.2](https://img.shields.io/badge/critical%209.2-e5534b?style=flat) | [GHSA-6c97-4h2m-7x7w](https://github.com/Privasys/enclave-os-virtual/security/advisories/GHSA-6c97-4h2m-7x7w) | [Privasys/enclave-os-virtual](https://github.com/Privasys/enclave-os-virtual)<br><sub><code>enclave-os-virtual</code>, <code>enclave-os-virtual-gpu</code></sub> | TLS server names sent by any client grow Caddy's memory and slow every handshake | 0.2.127 / 0.6.68 |
-| ![critical 9.2](https://img.shields.io/badge/critical%209.2-e5534b?style=flat) | [GHSA-5jgf-wrcr-p9qh](https://github.com/Privasys/enclave-os-virtual/security/advisories/GHSA-5jgf-wrcr-p9qh) | [Privasys/enclave-os-virtual](https://github.com/Privasys/enclave-os-virtual)<br><sub><code>enclave-os-virtual</code>, <code>enclave-os-virtual-gpu</code></sub> | Session bootstraps accept an arbitrary Host header, so any client can grow the manager's memory | 0.2.124 / 0.6.67 |
 
 <!-- cve records:begin -->
 **CVE records.** CVE ids assigned to findings we reported:
