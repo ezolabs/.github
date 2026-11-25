@@ -23,7 +23,7 @@ We unlock the gains of AI inside your company: custom AI apps, fine-tuned models
 EZO Labs Security reports vulnerabilities upstream and follows each one through coordinated disclosure. Maintainers publish the advisory and credit [superbot-helper](https://github.com/superbot-helper), the account our reports are filed from, as reporter or, where marked, as analyst.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/58%20credited%20advisories-3b6ef6?style=flat" alt="58 credited advisories" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/60%20credited%20advisories-3b6ef6?style=flat" alt="60 credited advisories" height="28">&nbsp;
   <img src="https://img.shields.io/badge/highest%20severity%20critical%209.8-e5534b?style=flat" alt="highest severity critical 9.8" height="28">&nbsp;
   <a href="https://ezolabs.net/security"><img src="https://img.shields.io/badge/security%20page-30363d?style=flat" alt="security page" height="28"></a>
 </p>
