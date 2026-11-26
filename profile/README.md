@@ -23,17 +23,17 @@ We unlock the gains of AI inside your company: custom AI apps, fine-tuned models
 EZO Labs Security reports vulnerabilities upstream and follows each one through coordinated disclosure. Maintainers publish the advisory and credit [superbot-helper](https://github.com/superbot-helper), the account our reports are filed from, as reporter or, where marked, as analyst.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/60%20credited%20advisories-3b6ef6?style=flat" alt="60 credited advisories" height="28">&nbsp;
+  <img src="https://img.shields.io/badge/61%20credited%20advisories-3b6ef6?style=flat" alt="61 credited advisories" height="28">&nbsp;
   <img src="https://img.shields.io/badge/highest%20severity%20critical%209.8-e5534b?style=flat" alt="highest severity critical 9.8" height="28">&nbsp;
   <a href="https://ezolabs.net/security"><img src="https://img.shields.io/badge/security%20page-30363d?style=flat" alt="security page" height="28"></a>
 </p>
 
 | Severity | Advisory | Project | What it was | Fixed in |
 | --- | --- | --- | --- | --- |
+| ![critical 9.8](https://img.shields.io/badge/critical%209.8-e5534b?style=flat) | [GHSA-p66m-wwm8-j346](https://github.com/ChangemakerStudios/Papercut-SMTP/security/advisories/GHSA-p66m-wwm8-j346) | [ChangemakerStudios/Papercut-SMTP](https://github.com/ChangemakerStudios/Papercut-SMTP)<br><sub><code>papercut-smtp</code></sub> | A caller with no account can store an Invoke Process rule through the rules API, and the next message makes the service start a program the caller chooses | 8.1.1 |
 | ![critical 9.8](https://img.shields.io/badge/critical%209.8-e5534b?style=flat) | [GHSA-h924-jfhp-9vjr](https://github.com/christianhelle/refitter/security/advisories/GHSA-h924-jfhp-9vjr) | [christianhelle/refitter](https://github.com/christianhelle/refitter)<br><sub><code>Refitter</code>, <code>Refitter.Core</code>, <code>Refitter.MSBuild</code>, <code>Refitter.SourceGenerator</code></sub> | Schema property names, discriminator fields, defaults and enum values are emitted into C# literals unescaped | 2.4.1 |
 | ![critical 9.4](https://img.shields.io/badge/critical%209.4-e5534b?style=flat) | [GHSA-mwmx-rgj6-f8mc](https://github.com/Privasys/identity-platform/security/advisories/GHSA-mwmx-rgj6-f8mc) | [Privasys/identity-platform](https://github.com/Privasys/identity-platform)<br><sub><code>identity-platform-idp</code></sub> | A pending sign-in session could be completed as any account the request names | 0.3.105 |
 | ![critical 9.3](https://img.shields.io/badge/critical%209.3-e5534b?style=flat) | [GHSA-fxh8-363w-wx5g](https://github.com/Privasys/identity-platform/security/advisories/GHSA-fxh8-363w-wx5g) | [Privasys/identity-platform](https://github.com/Privasys/identity-platform)<br><sub><code>identity-platform-idp</code></sub> | An app holding a token issued to it could act as the user at the identity provider's account endpoints | 0.3.106 |
-| ![critical 9.2](https://img.shields.io/badge/critical%209.2-e5534b?style=flat) | [GHSA-cjh8-m3cm-xw57](https://github.com/Privasys/platform-gateway/security/advisories/GHSA-cjh8-m3cm-xw57) | [Privasys/platform-gateway](https://github.com/Privasys/platform-gateway)<br><sub><code>platform-gateway</code></sub> | A client with no credential can exhaust the gateway's memory with oversized sealed WebSocket messages | 0.6.1 |
 
 <!-- cve records:begin -->
 **CVE records.** CVE ids assigned to findings we reported:
